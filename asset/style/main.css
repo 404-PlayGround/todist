@@ -96,6 +96,11 @@ nav {
     padding: 0px 10px;
 }
 
+.head-dropdown li:hover {
+    background-color: hsla(53,10%,69%,.2);
+    border-radius: 6px;
+}
+
 .dropdown:hover .drop-down-content {
     display: block;
 }
@@ -107,6 +112,11 @@ nav {
     font-weight: 500;
     letter-spacing: 0.5px;
     font-family: var(--font-family-body);
+}
+
+.nav-link a:hover{
+    background: hsla(53,10%,69%,.2);
+    border-radius: 6px;
 }
 
 .line {
