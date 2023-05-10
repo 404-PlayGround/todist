@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    transition: all 1s;
+}
+
+:root {
+    --font-family-sans: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-heading: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-body: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background: white;
+}
+
+.nav-padding-side {
+    padding: 0px 24px;
+}
+
+.nav-padding-top {
+    padding: 20px 0px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 450px;
+
+}
+
+.nav-list-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list-con ul {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-down-btn {
+    background: none;
+    border: none;
+}
+
+.drop-down-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+}
+
+.dropdown:hover .drop-down-content {
+    display: block;
+}
+
+.nav-link a {
+    color: #232115;
+    padding: 9px 14px;
+    font-size: 15.5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: var(--font-family-body);
+}
+
+.line {
+    width: 1px;
+    height: 24px;
+    background-color: rgba(42, 29, 48, .16);
+}
+
+.nav-btn a {
+    font-family: var(--font-family-body);
+    padding: 9px 14px;
+    font-size: 15.5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #232115;
+}
+
+.start {
+    background-color: #de483a;
+    border-radius: 8px;
+}
+
+.start span {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white;
+}
