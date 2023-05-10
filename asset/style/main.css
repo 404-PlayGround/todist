@@ -154,7 +154,7 @@ nav {
 }
 
 .ban-padding-top {
-    padding: 128px 0px;
+    padding: 128px 0px 50px;
 }
 
 .banner-text {
@@ -192,6 +192,11 @@ nav {
     color: white;
 }
 
+.u-img {
+    display: flex;
+    justify-content: center;
+}
+
 .banner-img-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -204,11 +209,69 @@ nav {
 .img-2 {
     position: absolute;
     left: 170px;
-    z-index: 9996;
+    z-index: 5;
 }
 
 .img-3 {
     position: relative;
     right: -420px;
-    z-index: 9995;
+    z-index: 1;
+}
+
+.review-con img {
+    position: relative;
+    z-index: 300;
+}
+
+.review-bg {
+    position: relative;
+    background-image: url(/asset/img/bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* background-position: bottom; */
+    padding: 16px 0px 48px;
+    width: 100%;
+    z-index: 300;
+    margin-top: -10px;
+}
+
+.review-text {
+    padding: 0px 24px 24px;
+    display: flex;
+    justify-content: space-evenly;
+    max-inline-size: 800px;
+    inline-size: 100%;
+}
+
+.tt {
+    max-inline-size: 250px;
+    padding-bottom: 1.5rem;
+}
+
+.tt h4 {
+    font-size: 14px;
+    font-family: var(--font-family-body);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1f1f1f;
+}
+
+.tt p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    margin-bottom: 16px;
+    color: #1f1f1f;
+    font-weight: 700;
+}
+
+.review-comp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-inline-size: 14.25rem;
+}
+
+.review-comp svg {
+    margin-bottom: 16px;
 }
