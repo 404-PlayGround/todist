@@ -275,3 +275,75 @@ nav {
 .review-comp svg {
     margin-bottom: 16px;
 }
+
+.f-margin {
+    margin: 0px 106px 64px;
+}
+
+.f-padding {
+    padding: 32px;
+}
+
+.f-grid-con {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    padding: 32px;
+
+}
+
+.get-text {
+    text-align: left;
+    max-inline-size: 420px;
+}
+
+.get-text h6 {
+    color: #1f1f1f;
+    font-size: 13.5px;
+    font-family: var(--font-family-body);
+    padding: 0px 0px 4px;
+    letter-spacing: 0.5px;
+}
+
+.get-text h1 {
+    color: #1f1f1f;
+    font-size: 29px;
+    /* font-family: var(--font-family-heading); */
+    font-family: 'Graphik';
+    padding: 0px 0px 4px;
+    font-weight: 600;
+}
+
+.get-text p {
+    color: #575757;
+    font-size: 16px;
+    font-family: var(--font-family-body);
+}
+
+.clear-text {
+    text-align: left;
+    max-inline-size: 420px;
+}
+
+.clear-text h6 {
+    color: #1f1f1f;
+    font-size: 13.5px;
+    font-family: var(--font-family-body);
+    padding: 0px 0px 4px;
+    letter-spacing: 0.5px;
+}
+
+.clear-text h1 {
+    color: #1f1f1f;
+    font-size: 29px;
+    font-family: var(--font-family-heading);
+    margin: 0px 0px 8px;
+}
+
+.clear-text p {
+    color: #575757;
+    font-size: 16px;
+    font-family: var(--font-family-body);
+}
