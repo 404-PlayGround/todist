@@ -360,3 +360,41 @@ nav {
     line-height: 1.6;
 }
 
+.complex {
+    position: relative;
+    text-align: center;
+}
+
+.c-margin {
+    margin: 0px 106px;
+}
+
+.c-padding {
+    padding: 0px 24px;
+}
+
+.c-img {
+    position: absolute;
+}
+
+.c-text-con {
+    position: relative;
+    padding: 64px 16px 32px;
+}
+
+.c-text h1 {
+    font-size: 38px;
+    line-height: 1.28;
+    color: #1f1f1f;
+    font-weight: 600;
+    margin: 0px 198px;
+}
+
+.c-text a {
+    color: #316fea;
+    margin-top: 10px;
+}
+
+.c-text a:hover {
+    text-decoration: underline;
+}
