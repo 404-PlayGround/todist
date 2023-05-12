@@ -292,9 +292,11 @@ nav {
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 1rem;
     padding: 32px;
+    justify-items: center;
 
 }
 
@@ -388,11 +390,11 @@ nav {
     color: #1f1f1f;
     font-weight: 600;
     margin: 0px 198px;
+    margin-bottom: 16px;
 }
 
 .c-text a {
     color: #316fea;
-    margin-top: 10px;
 }
 
 .c-text a:hover {
