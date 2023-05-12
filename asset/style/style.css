@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: 1s;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --font-family-sans: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-heading: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-body: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-sec3:  "CaeciliaLTPro46LightIt";
+}
+
+body {
+    overflow-x: hidden;
+}
+ 
+.section {
+    padding-top: 50px;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+}
+
+.image {
+    width: 500px;
+}
+
+.section1 {
+    position: relative;
+    padding-top: 70px;
+}
+
+.section1 img {
+    width: 500px;
+    margin-left: 750px;
+    padding-top: 200px;
+}
+
+.section1 h1 {
+    font-size: 70px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    text-align: center;
+    color: #1c1c1c;
+}
+
+.section1 p {
+    font-size: 20px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+    padding-top: 20px;
+    color: #1c1c1c;
+}
+
+
+
+.dots-bg {
+    position: absolute;
+    padding-top: 50px;
+}
+
+.dots-bg img {
+    width: 1500px;
+}
+
+.quick-add {
+    position: absolute;
+    padding-right: 800px;
+    padding-top: 90px;
+}
+
+.quick-add img {
+    width: 800px;
+
+}
+
+.part {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section2 {
+    position: relative;
+    padding-left: 700px;
+    padding-top: 50px;
+    
+}
+
+.section2 h1 {
+    font-size: 35px;
+    font-family: var(--font-family-body);
+    color: #1f1f1f;
+    font-weight: 700;
+    line-height: 50px;
+}
+.p {
+    font-size: 20px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+    color: #1f1f1f;
+}
+.svg{
+    display: flex;
+    background-color: #fbe3e0;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.svg span{
+    font-weight: 600;
+    font-size: 20px;
+}
+.svg p{
+    font-size: 18px;
+    font-family: var(--font-family-body);
+    line-height: 27px;
+    padding-top: 23px;
+}
+.svg svg{
+    padding-top: 22px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.svg1{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.svg1 p{
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    color: #1f1f1f;
+    padding-left: 30px;
+}
+.svg2{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.svg2 p{
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    color: #1f1f1f;
+    padding-left: 25px;
+}
+.svg2 svg{
+    width: 23px;
+}
+
+.section3 p{
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--font-family-sec3);
+    position: relative;
+    margin-top: 200px;
+}
