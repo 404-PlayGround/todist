@@ -269,6 +269,12 @@ nav {
     font-weight: 600;
 }
 
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .review-comp {
     display: flex;
     flex-wrap: wrap;
@@ -402,4 +408,21 @@ nav {
 
 .c-text a:hover {
     text-decoration: underline;
+}
+
+.c-list-1 svg {
+    width: 24px;
+}
+
+.c-list-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-list {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }
