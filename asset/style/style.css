@@ -1,174 +1,382 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    transition: 1s;
-    list-style: none;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
+    list-style: none;
+    transition: all 1s;
+    font-family: 'Graphik';
 }
 
 :root {
     --font-family-sans: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-heading: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-body: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-sec3:  "CaeciliaLTPro46LightIt";
 }
 
 body {
     overflow-x: hidden;
 }
- 
+
 .section {
-    padding-top: 50px;
+    position: relative;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
 }
 
 .img {
     position: absolute;
-    top: 0;
 }
 
-.image {
+.video {
+    position: relative;
+}
+
+.video img {
     width: 500px;
+    padding-left: 700px;
+    padding-top: 450px;
 }
 
 .section1 {
     position: relative;
-    padding-top: 70px;
-}
-
-.section1 img {
-    width: 500px;
-    margin-left: 750px;
-    padding-top: 200px;
+    bottom: 700px;
 }
 
 .section1 h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-family: var(--font-family-body);
-    font-weight: 600;
+    color: #1f1f1f;
     text-align: center;
-    color: #1c1c1c;
+    font-weight: 700;
 }
 
 .section1 p {
     font-size: 20px;
     font-family: var(--font-family-body);
-    font-weight: 400;
+    color: #1f1f1f;
     text-align: center;
+    font-weight: 400;
     line-height: 35px;
     padding-top: 20px;
-    color: #1c1c1c;
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.images1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .dots-bg {
     position: absolute;
-    padding-top: 50px;
 }
 
 .dots-bg img {
-    width: 1500px;
+    width: 1700px;
+    padding-left: 400px;
+    padding-bottom: 130px;
 }
 
 .quick-add {
-    position: absolute;
-    padding-right: 800px;
-    padding-top: 90px;
+    position: relative;
+    right: 180px;
+    bottom: 100px;
 }
 
 .quick-add img {
     width: 800px;
-
-}
-
-.part {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding-top: 200px;
-    margin: 0 auto;
-    align-items: center;
 }
 
 .section2 {
     position: relative;
-    padding-left: 700px;
-    padding-top: 50px;
-    
+    right: 70px;
+    padding-bottom: 200px;
 }
 
 .section2 h1 {
-    font-size: 35px;
-    font-family: var(--font-family-body);
-    color: #1f1f1f;
-    font-weight: 700;
-    line-height: 50px;
-}
-.p {
-    font-size: 20px;
-    font-family: var(--font-family-body);
-    font-weight: 400;
-    line-height: 30px;
-    padding-top: 30px;
-    color: #1f1f1f;
-}
-.svg{
-    display: flex;
-    background-color: #fbe3e0;
-    border-radius: 10px;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-}
-.svg span{
-    font-weight: 600;
-    font-size: 20px;
-}
-.svg p{
-    font-size: 18px;
-    font-family: var(--font-family-body);
-    line-height: 27px;
-    padding-top: 23px;
-}
-.svg svg{
-    padding-top: 22px;
-    padding-right: 20px;
-    font-size: 20px;
-}
-.svg1{
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-    padding-left: 15px;
-}
-.svg1 p{
-    font-size: 17px;
+    font-size: 40px;
     font-family: var(--font-family-body);
     font-weight: 600;
     color: #1f1f1f;
-    padding-left: 30px;
-}
-.svg2{
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-    padding-left: 15px;
-}
-.svg2 p{
-    font-size: 17px;
-    font-family: var(--font-family-body);
-    font-weight: 600;
-    color: #1f1f1f;
-    padding-left: 25px;
-}
-.svg2 svg{
-    width: 23px;
+    text-align: left;
 }
 
-.section3 p{
+.section2 p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    color: #1f1f1f;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.svg {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    background-color: rgb(248, 219, 219);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.svg span {
     font-size: 20px;
-    text-align: center;
-    font-family: var(--font-family-sec3);
+    font-weight: 500;
+    font-family: var(--font-family-body);
+    color: #1f1f1f;
+}
+
+.svg p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    color: #1f1f1f;
+}
+
+.svg svg {
+    padding-bottom: 50px;
+    padding-right: 10px;
+}
+
+.svg1 {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.svg1 p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    color: #1f1f1f;
+    padding-left: 10px;
+}
+
+.svg1 svg {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.svg2 {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.svg2 p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    color: #1f1f1f;
+    padding-left: 10px;
+}
+
+.svg2 svg {
+    width: 20px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.section3 {
     position: relative;
-    margin-top: 200px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.coment {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'CaeciliaLTPro46LightIt';
+    font-style: italic;
+    color: #1f1f1f;
+}
+
+.w {
+    font-size: 15px;
+    font-weight: 400;
+    color: #1f1f1f;
+    padding-top: 10px;
+}
+
+.banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.lines-bg {
+    position: absolute;
+}
+
+.lines-bg img {
+    width: 300px;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 {
+    position: relative;
+    left: 70px;
+}
+
+.section4 h1 {
+    font-size: 40px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.section4 p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    color: #1f1f1f;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.svg3 {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    background-color: rgb(248, 219, 219);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.svg3 span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-family-body);
+    color: #1f1f1f;
+}
+
+.priorities {
+    position: relative;
+    left: 200px;
+}
+
+.priorities img {
+    width: 800px;
+}
+
+.section5 {
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.section6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.text {
+    position: relative;
+    left: 200px;
+}
+
+.text h1 {
+    font-size: 40px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.text p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    color: #1f1f1f;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.phone-bg1 {
+    position: absolute;
+}
+
+.phone-bg1 img {
+    width: 700px;
+    padding-right: 500px;
+}
+
+.delegate-tasks {
+    position: relative;
+}
+
+.delegate-tasks img {
+    width: 300px;
+}
+
+.banner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.section2-bg {
+    position: absolute;
+}
+
+.section2-bg img {
+    width: 1300px;
+    padding-right: 30px;
+}
+.boards2x {
+    position: relative;
+    left: 200px;
+}
+
+.boards2x img {
+    width: 700px;
+}
+.section7 {
+    position: relative;
+}
+
+.section7 h1 {
+    font-size: 40px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.section7 p {
+    font-size: 17px;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    color: #1f1f1f;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 10px;
 }
