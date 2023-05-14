@@ -384,9 +384,10 @@ nav {
     padding: 0px 24px;
 }
 
-.c-img {
+/* .c-img {
     position: absolute;
-}
+    padding: 0px 0px 50px;
+} */
 
 .c-text-con {
     position: relative;
