@@ -524,6 +524,9 @@ nav {
 
 .more-info {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mf-margin {
@@ -549,7 +552,7 @@ nav {
 
 .mf-head h1::before {
     position: absolute;
-    bottom: 870px ;
+    bottom: 870px;
     left: 137px;
     content: "";
     block-size: 1px;
@@ -604,6 +607,7 @@ p {
 .ss-margin {
     margin: 0px 106px 64px;
 }
+
 .ss-padding {
     padding: 0px 24px;
 }
@@ -679,3 +683,64 @@ p {
 .ss-ill img {
     margin: 0px 0px 24px;
 }
+
+.prefooter {
+    background: #fff9f3;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prefooter svg {
+    fill: #fff9f3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    inline-size: 100%;
+
+}
+
+.pf-margin {
+    margin: 128px 0px 0px;
+}
+
+.pf-padding {
+    padding: 32px;
+}
+
+.pf-text h1 {
+    font-size: 38px;
+    color: #1f1f1f;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.pf-text a {
+    font-family: 'inter';
+    padding: 10px 18px;
+    color: white;
+    background: #de483a;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.pf-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.pf-text {
+    max-inline-size: 28rem;
+}
+
+/* .pf-img img {
+    margin: -190px 0px 0px;
+    z-index: 9998;
+    position: relative;
+} */
