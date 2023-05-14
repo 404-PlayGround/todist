@@ -547,6 +547,16 @@ nav {
     font-weight: 600;
 }
 
+.mf-head h1::before {
+    position: absolute;
+    bottom: 870px ;
+    left: 137px;
+    content: "";
+    block-size: 1px;
+    inline-size: 2ch;
+    background: #e44232;
+}
+
 .mf-head p {
     font-family: 'inter';
     font-size: 20.5px;
@@ -589,4 +599,83 @@ p {
 
 .mf-grid-1 span:hover {
     text-decoration: underline;
+}
+
+.ss-margin {
+    margin: 0px 106px 64px;
+}
+.ss-padding {
+    padding: 0px 24px;
+}
+
+.ss-head {
+    max-inline-size: 300px;
+    margin: 0px 20px 30px;
+}
+
+.ss-head h2 {
+    font-size: 29px;
+    padding: 24px 0px 0px;
+    margin: 0px 0px 8px;
+    line-height: 1.28;
+    font-weight: 600;
+}
+
+.ss-head p {
+    font-size: 16px;
+    color: #575757;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
+
+.ss-head span {
+    color: #316fea;
+}
+
+.ss-head span:hover {
+    text-decoration: underline;
+}
+
+.ss-ill span {
+    font-family: 'inter';
+}
+
+.emp {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.ss-ill span {
+    color: #575757;
+}
+
+.ss-ill p {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ss-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+
+.ss-ill-con {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.ss-ill {
+    margin: 24px 0px 32px;
+}
+
+.ss-ill img {
+    margin: 0px 0px 24px;
 }
