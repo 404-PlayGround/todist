@@ -530,3 +530,59 @@ nav {
     padding: 32px;
 }
 
+.mf-head {
+    max-inline-size: 46rem;
+    margin: 0px 0px 50px 0px;
+}
+
+.mf-head h1 {
+    font-size: 29px;
+    padding: 24px 0px 0px;
+    margin: 0px 0px 8px;
+    line-height: 1.28;
+    font-weight: 600;
+}
+
+.mf-head p {
+    font-family: 'inter';
+    font-size: 20.5px;
+    line-height: 1.6;
+    color: #575757;
+}
+
+.mf-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.mf-grid-1 h3,
+p {
+    font-family: 'inter';
+}
+
+.mf-grid-1 h3 {
+    font-size: 17px;
+    margin-bottom: 4px;
+    color: #1f1f1f;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.mf-grid-1 p {
+    font-size: 16px;
+    color: #575757;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
+
+.mf-grid-1 span {
+    color: #316fea;
+    line-height: 1.5;
+}
+
+.mf-grid-1 span:hover {
+    text-decoration: underline;
+}
