@@ -384,10 +384,10 @@ nav {
     padding: 0px 24px;
 }
 
-/* .c-img {
+.c-img {
     position: absolute;
     padding: 0px 0px 50px;
-} */
+}
 
 .c-text-con {
     position: relative;
@@ -520,6 +520,10 @@ nav {
     font-size: 12px;
     border-radius: 2.5px;
     font-weight: 500;
+}
+
+.more-info {
+    position: relative;
 }
 
 .mf-margin {
