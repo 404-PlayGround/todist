@@ -337,7 +337,7 @@ body {
     width: 300px;
 }
 
-.banner2{
+.banner2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,6 +352,7 @@ body {
     width: 1300px;
     padding-right: 30px;
 }
+
 .boards2x {
     position: relative;
     left: 200px;
@@ -360,6 +361,7 @@ body {
 .boards2x img {
     width: 700px;
 }
+
 .section7 {
     position: relative;
 }
